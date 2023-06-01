@@ -1,5 +1,5 @@
 {
-  "name": "tiny-plus",
+  "name": "tine",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,10 @@
   "engines": {
     "node": ">=16",
     "pnpm": ">=8"
+  },
+  "devDependencies": {
+    "@tine/eslint-config": "workspace:*",
+    "eslint": "^8.41.0",
+    "prettier": "^2.8.8"
   }
 }
