@@ -1,19 +1,35 @@
 {
   "name": "tine",
   "version": "0.0.1",
+  "packageManager": "pnpm@8.6.0",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npx only-allow pnpm"
+    "cz": "czg",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install"
   },
-  "license": "MIT",
-  "packageManager": "pnpm@8.6.0",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "@tine/eslint-config": "workspace:*",
+    "cz-git": "^1.6.1",
+    "czg": "^1.6.1",
+    "eslint": "^8.41.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8"
+  },
   "engines": {
     "node": ">=16",
     "pnpm": ">=8"
   },
-  "devDependencies": {
-    "@tine/eslint-config": "workspace:*",
-    "eslint": "^8.41.0",
-    "prettier": "^2.8.8"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-git"
+    }
+  },
+  "lint-staged": {
+    "*.{vue,js,jsx,md,json}": "eslint --fix"
   }
 }
