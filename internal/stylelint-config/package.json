@@ -1,0 +1,23 @@
+{
+  "name": "@tine/stylelint-config",
+  "version": "0.0.1",
+  "description": "stylelint config of tine",
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "stylelint": "^15.6.2"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.24",
+    "postcss-html": "^1.5.0",
+    "postcss-scss": "^4.0.6",
+    "stylelint-config-property-sort-order-smacss": "^9.1.0",
+    "stylelint-config-recommended": "^12.0.0",
+    "stylelint-config-recommended-scss": "^12.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-config-standard-scss": "^9.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^3.0.0"
+  }
+}
