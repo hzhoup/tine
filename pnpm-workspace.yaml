@@ -1,4 +1,5 @@
 packages:
+  - client/*
   - internal/*
   - packages/*
   - tests
