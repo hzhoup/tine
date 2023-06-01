@@ -52,6 +52,10 @@ importers:
         specifier: ^4.3.9
         version: 4.3.9(@types/node@20.2.5)
 
+  apps/full: {}
+
+  apps/simplify: {}
+
   internal/eslint-config:
     dependencies:
       eslint:
