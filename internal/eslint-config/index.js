@@ -92,6 +92,13 @@ module.exports = defineConfig({
     }
   ],
   rules: {
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'error',
+    'import/no-unresolved': 'off',
+    'vue/multi-word-component-names': [
+      'error',
+      {
+        ignores: ['index']
+      }
+    ]
   }
 })
