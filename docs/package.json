@@ -1,0 +1,15 @@
+{
+  "name": "@tine/docs",
+  "version": "0.0.1",
+  "description": "docs of tine",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-beta.1"
+  }
+}
